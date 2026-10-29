@@ -1,0 +1,140 @@
+{
+    "nodes": [
+        {
+            "uuid": 19,
+            "type": "Value",
+            "left": 50,
+            "top": 158,
+            "inputs": [
+
+            ],
+            "value": 1.0
+        },
+        {
+            "uuid": 20,
+            "type": "Value",
+            "left": 53,
+            "top": 288,
+            "inputs": [
+
+            ],
+            "value": 0.0
+        },
+        {
+            "uuid": 21,
+            "type": "Value",
+            "left": 48,
+            "top": 422,
+            "inputs": [
+
+            ],
+            "value": 0.0
+        },
+        {
+            "uuid": 22,
+            "type": "Perceptron",
+            "left": 464,
+            "top": 256,
+            "inputs": [
+                {
+                    "uuid": 19,
+                    "weight": 6.0
+                },
+                {
+                    "uuid": 20,
+                    "weight": 2.0
+                },
+                {
+                    "uuid": 21,
+                    "weight": 2.0
+                }
+            ],
+            "threshold": 5.0
+        },
+        {
+            "uuid": 23,
+            "type": "Output",
+            "left": 879,
+            "top": 282,
+            "inputs": [
+                {
+                    "uuid": 22,
+                    "weight": -2.0
+                }
+            ],
+            "falseMessage": "do NOT go to cheese festival",
+            "trueMessage": "go to cheese festival",
+            "testValue": 1.0
+        },
+        {
+            "uuid": 24,
+            "type": "Value",
+            "left": 52,
+            "top": 600,
+            "inputs": [
+
+            ],
+            "value": 0.0
+        },
+        {
+            "uuid": 25,
+            "type": "Value",
+            "left": 43,
+            "top": 692,
+            "inputs": [
+
+            ],
+            "value": 1.0
+        },
+        {
+            "uuid": 26,
+            "type": "Value",
+            "left": 44,
+            "top": 803,
+            "inputs": [
+
+            ],
+            "value": 1.0
+        },
+        {
+            "uuid": 27,
+            "type": "Perceptron",
+            "left": 445,
+            "top": 653,
+            "inputs": [
+                {
+                    "uuid": 24,
+                    "weight": 6.0
+                },
+                {
+                    "uuid": 25,
+                    "weight": 2.0
+                },
+                {
+                    "uuid": 26,
+                    "weight": 2.0
+                }
+            ],
+            "threshold": 3.0
+        },
+        {
+            "uuid": 28,
+            "type": "Output",
+            "left": 859,
+            "top": 680,
+            "inputs": [
+                {
+                    "uuid": 27,
+                    "weight": -2.0
+                }
+            ],
+            "falseMessage": "no cheese for you!",
+            "trueMessage": "cheese here we come",
+            "testValue": 1.0
+        }
+    ],
+    "left": 637,
+    "top": 134,
+    "width": 1525,
+    "height": 1187
+}

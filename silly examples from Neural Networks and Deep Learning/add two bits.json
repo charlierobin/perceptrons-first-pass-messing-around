@@ -1,0 +1,139 @@
+{
+    "nodes": [
+        {
+            "uuid": 1,
+            "type": "Value",
+            "left": 80,
+            "top": 159,
+            "inputs": [
+
+            ],
+            "value": 1.0
+        },
+        {
+            "uuid": 2,
+            "type": "Value",
+            "left": 83,
+            "top": 383,
+            "inputs": [
+
+            ],
+            "value": 0.0
+        },
+        {
+            "uuid": 3,
+            "type": "Perceptron",
+            "left": 468,
+            "top": 258,
+            "inputs": [
+                {
+                    "uuid": 1,
+                    "weight": -2.0
+                },
+                {
+                    "uuid": 2,
+                    "weight": -2.0
+                }
+            ],
+            "threshold": -3.0
+        },
+        {
+            "uuid": 4,
+            "type": "Perceptron",
+            "left": 823,
+            "top": 141,
+            "inputs": [
+                {
+                    "uuid": 1,
+                    "weight": -2.0
+                },
+                {
+                    "uuid": 3,
+                    "weight": -2.0
+                }
+            ],
+            "threshold": -3.0
+        },
+        {
+            "uuid": 5,
+            "type": "Perceptron",
+            "left": 833,
+            "top": 442,
+            "inputs": [
+                {
+                    "uuid": 3,
+                    "weight": -2.0
+                },
+                {
+                    "uuid": 2,
+                    "weight": -2.0
+                }
+            ],
+            "threshold": -3.0
+        },
+        {
+            "uuid": 6,
+            "type": "Perceptron",
+            "left": 830,
+            "top": 694,
+            "inputs": [
+                {
+                    "uuid": 3,
+                    "weight": -4.0
+                }
+            ],
+            "threshold": -3.0
+        },
+        {
+            "uuid": 7,
+            "type": "Perceptron",
+            "left": 1146,
+            "top": 295,
+            "inputs": [
+                {
+                    "uuid": 4,
+                    "weight": -2.0
+                },
+                {
+                    "uuid": 5,
+                    "weight": -2.0
+                }
+            ],
+            "threshold": -3.0
+        },
+        {
+            "uuid": 8,
+            "type": "Output",
+            "left": 1492,
+            "top": 323,
+            "inputs": [
+                {
+                    "uuid": 7,
+                    "weight": -2.0
+                }
+            ],
+            "falseMessage": "sum: 0",
+            "trueMessage": "sum: 1",
+            "testValue": 1.0
+        },
+        {
+            "uuid": 9,
+            "type": "Output",
+            "left": 1492,
+            "top": 731,
+            "inputs": [
+                {
+                    "uuid": 6,
+                    "weight": -2.0
+                }
+            ],
+            "falseMessage": "carry bit: 0",
+            "trueMessage": "carry bit: 1",
+            "testValue": 1.0
+        }
+    ],
+    "left": 404,
+    "top": 200,
+    "width": 1895,
+    "height": 925
+}
