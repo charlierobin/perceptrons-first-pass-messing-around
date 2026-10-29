@@ -15,3 +15,8 @@ It was originally done in a far older version of Xojo, so I have brought it a li
 But if you’re happy with something that’s scarcely above “toy” level (which is usually enough for me), well, maybe this’ll get you started.
 
 There are a couple of subsequent versions where I cleaned stuff up and considerably extended the functionality, and there’s also the version where I moved on to neural networks proper, but they are all going to have to wait for another day.
+
+<img width="2500" height="2138" alt="Screenshot 2026-10-29 at 12 41 33" src="https://github.com/user-attachments/assets/c84efedc-0c2c-42e8-a3e2-ea44b5715183" />
+
+<img width="3808" height="1908" alt="Screenshot 2026-10-29 at 12 41 44" src="https://github.com/user-attachments/assets/fe13c1e1-b202-437e-b221-ee5b2ce9f936" />
+
