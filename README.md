@@ -2,7 +2,7 @@
  
 Well. There comes a point where a chap realises that he’s going to have to start learning a little something about AI, and the first (very VERY general) book he reads makes mention of “perceptrons” and “neural networks”.
 
-Courtesy of Google (and reading the recommendations of discussion groups etc) he comes across Neural Networks and Deep Learning (http://neuralnetworksanddeeplearning.com/index.html) by Michael Nielsen, sometime around 20-something - the exact year escapes me.
+Courtesy of Google (and reading the recommendations of discussion groups etc) he comes across Neural Networks and Deep Learning (http://neuralnetworksanddeeplearning.com/index.html) by Michael Nielsen, sometime around 2000-and-something - the exact year escapes me.
 
 This repository is just the result of what was, back then, my initial mucking around with perceptrons (and refreshing my memory about what was involved in creating a linked-nodes type interface) as I read about them in these books.
 
@@ -10,7 +10,7 @@ It’s sort of full-featured, in that you can link things together, inspect prop
 
 But if it comes to some large network where you’re constantly creating and deleting nodes, well, I wouldn’t if I were you. I'm sure there are far better things out there.
 
-It was originally done in far older version of Xojo, so I have brought it a little more up to date.
+It was originally done in a far older version of Xojo, so I have brought it a little more up to date.
 
 But if you’re happy with something that’s scarcely above “toy” level (which is usually enough for me), well, maybe this’ll get you started.
 
